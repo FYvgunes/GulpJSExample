@@ -1,0 +1,35 @@
+//mixins
+
+@mixin transistionEffets ($par){
+    transition: $par .5s;
+    -webkit-transition: $par .5s;
+    -moz-transition: $par .5s;
+    -ms-transition: $par .5s;
+    -o-transition: $par .5s;
+}
+@mixin TrasformTraslateX($x) {
+    transform:  translate($x);
+    -webkit-transform:  translate($x);
+    -moz-transform:  translate($x);
+    -ms-transform:  translate($x);
+    -o-transform:  translate($x);
+}
+@mixin TrasformTraslateY($y) {
+    transform:  translate($y);
+    -webkit-transform:  translate($y);
+    -moz-transform:  translate($y);
+    -ms-transform:  translate($y);
+    -o-transform:  translate($y);
+}
+@mixin trasformscale($par) {
+    transform: scale($per);
+    -webkit-transform: scale($per);
+    -moz-transform: scale($per);
+    -ms-transform: scale($per);
+    -o-transform: scale($per);
+}
+@mixin  imageFit {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
